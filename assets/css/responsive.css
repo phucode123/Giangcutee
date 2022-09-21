@@ -1,0 +1,106 @@
+
+
+/* máy tính bảng và điện thoại */
+@media (max-width: 1023px) {
+    .header{
+        height: 70px;
+    }
+    .happy_birthday-img-png {
+        display: block;
+        height: 100px;
+    }
+}
+
+@media (max-width: 720px){
+    .header_slider{
+        width: 121%;
+    }
+    #content{
+        width: 121%;
+    }
+    .avatar-about {
+        display: block;
+        width: 200px;
+        height: 200px;
+        margin: auto;
+        z-index: 1;
+        border-radius: 50%;
+        box-shadow: 0 0 20px rgb(170 225 236 / 94%);
+    }
+    .text-about {
+        display: block;
+        margin: auto;
+        width: 90%;
+        max-width: 100%px;
+        height: 667px;
+        background-color: white;
+        margin-top: -104px;
+        border-radius: 10px;
+        background-image: url(../img/phaohoa.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .text-main {
+        margin-top: 132px;
+    }
+    .slider__main {
+        width: 121%;
+        padding-bottom: 200px;
+        padding-top: 50px;
+    }
+    .button-all {
+        margin-left: -10px;
+        width: 90%;
+        
+        /* margin: 0 50px; */
+        display: flex;
+        justify-content: flex-start;
+        position: absolute;
+        bottom: -13%;
+        right: 10px;
+        left: 10px;
+    }
+    .button{
+        flex: 1;
+    }
+    .slider__main--conterner{
+        width: 110%;
+    }
+
+
+    .name_modal-content {
+        font-size: 20px;
+        padding-left: 8px;
+    }
+    .header_content-modal {
+        height: 100px;
+        padding: 0 15px;
+    }
+    .box-img {
+        display: block;
+        height: 80px;
+        width: 80px;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 3px solid rgba(214, 197, 197, 0.8);
+    }
+    .modal__body {
+        height: 623px;
+        width: 415px;
+
+    }
+    .item-text {
+        display: flex;
+        font-size: 1.7rem;
+        height: 60px;
+        
+        padding: 7px;
+    }
+    .gif__minion{
+        margin-top: 144px;
+    }
+
+    .icon-modal_menu{
+        font-size: 25px;
+    }
+}
