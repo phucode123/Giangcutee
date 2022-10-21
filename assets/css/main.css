@@ -2,6 +2,9 @@
     display: block;
     border-radius: 50%;
 }
+.conterner{
+    overflow-x: hidden;
+}
 
 .header_slider {
     /* margin-top: -50px; */
@@ -158,6 +161,7 @@
 
 .slider__main{
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     /* background-color: aqua; */
@@ -167,25 +171,38 @@
 }
 .slider__main--conterner{
     position: relative;
-    padding: 60px 0 ;
+    height: 500px;
+    padding: 60px 0 0;
     display: flex;
     flex-direction: column;
-    /* height: 800px; */
+    height: 800px;
     
     width: 50%;
     
+}
+.listSlides{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+
+
 }
 .mySlides{
     display: block;
     border: 5px black solid;
     border-radius: 10px;
+    object-fit: contain;
+    height: 500px;
+    width: 500px;
+    background-color: black;
 }
-.button-all{
+.button-all {
     margin: 0 50px;
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom: 20%;
+    bottom: 16%;
     right: 0;
     left: 0;
 }
